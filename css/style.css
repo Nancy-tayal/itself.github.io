@@ -4429,7 +4429,7 @@ body.switch-open {
     border-color: white;
     border-width: thick;
 }
-.card-odd {
+/*.card-odd {
     padding: 20px;
     margin-top: 20px;
     border: solid;
@@ -4445,7 +4445,7 @@ body.switch-open {
     margin-top: 20px;
     margin-bottom: 20px;
     background: #003153;
-}
+}*/
 .card-even p {
     color: white;
 }
@@ -4468,11 +4468,16 @@ body.switch-open {
     color: white;
 }
 
+.hidden{
+	display:none;
+}
 .mem-image {
-    width: 29%;
     float: right;
-    height: 322px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.manu{
+	width:100%;
+	height:345px;
 }
 .mem-image img {
     border-radius: 20px;
@@ -4540,7 +4545,7 @@ body.switch-open {
     border: solid;
     border-color: #ffffff;
 }
-.col-md-4.col-sm-12.re-card {
+.col-md-4.col-sm-4.re-card {
     margin-right: 10px;
     margin-left: 10px;
 }
